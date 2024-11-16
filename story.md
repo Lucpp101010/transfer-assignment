@@ -16,3 +16,11 @@ The message read:
 This commit was out of character for Arthur. He was known for detailed, precise commit messages. Clara knew the clue lay in the code.
 
 She cloned the repository onto her secure investigation server and used Git’s powerful tools to analyze its history. A `git diff` between the current branch and the previous commit showed that the “rollback” commit had reverted critical sections of the AI model, effectively sabotaging weeks of work.
+
+## The Missing Contribution
+
+Clara ran `git log --author="Arthur Greaves"` and noticed a second anomaly: Arthur's last few commits were authored during the same hour, but with subtle inconsistencies. Suspicious, she cross-referenced the commit timestamps with the building's security footage. She found that at least one of these commits had been made when Arthur was already dead.
+
+“Someone pushed this commit after he died,” Clara muttered to herself.
+
+A deeper inspection revealed the culprit. Clara used `git blame` to pinpoint the exact line of code in the sabotaging commit that introduced the critical rollback. It referenced a snippet copied from another developer's earlier contribution.
