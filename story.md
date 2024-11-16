@@ -37,3 +37,10 @@ Confronting Ethan with the evidence, Clara laid it out clearly:
 > “The commit timestamps don’t match up. You used Arthur’s credentials to make the rollback commit after killing him. Git's reflog and your sloppy attempt to amend his history gave you away.”
 
 Ethan broke down, confessing to the murder. He had planned to erase Arthur's work, hoping to prove indispensable to the company. But he hadn't counted on Git's meticulous history tracking.
+
+## Closing the Case
+
+Back at her office, Clara reflected on the case. Git, a system designed for collaboration, had been the unlikely hero. Its features—`reflog`, `blame`, and meticulous logging—had not only preserved the integrity of Arthur’s work but also brought his killer to justice.
+
+As Clara pushed her final report to her precinct’s secure repository, she couldn't help but smile.  
+**"Commit successful,"** she whispered to herself, ready to solve the next mystery, one branch at a time.
