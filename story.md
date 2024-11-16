@@ -30,3 +30,10 @@ A deeper inspection revealed the culprit. Clara used `git blame` to pinpoint the
 By checking the logs with `git log --author` and looking for anomalies, Clara identified a second user who had accessed the repository minutes after Arthur’s death. This developer, Ethan Mallory, had always been envious of Arthur's success. Ethan had committed the sabotaging rollback to frame Arthur as incompetent, expecting the company's leadership to sideline him from the project.
 
 But Ethan had made a critical mistake. Clara executed a `git reflog` and uncovered that Ethan had amended one of Arthur's commits to hide his tracks. However, Git's reflog stored every action performed on the repository, and there it was: Ethan's user credentials tied to the amended commit.
+
+## Confrontation and Confession
+
+Confronting Ethan with the evidence, Clara laid it out clearly:  
+> “The commit timestamps don’t match up. You used Arthur’s credentials to make the rollback commit after killing him. Git's reflog and your sloppy attempt to amend his history gave you away.”
+
+Ethan broke down, confessing to the murder. He had planned to erase Arthur's work, hoping to prove indispensable to the company. But he hadn't counted on Git's meticulous history tracking.
